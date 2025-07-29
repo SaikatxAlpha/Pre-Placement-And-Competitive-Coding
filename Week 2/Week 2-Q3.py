@@ -9,11 +9,11 @@ def printDiagonalSums(mat, n):
                 secondary += mat[i][j]       
     print("Principal Diagonal:", principal)
     print("Secondary Diagonal:", secondary)
-a = [[ 11, 22, 33, 44 ],
+s = [[ 11, 22, 33, 44 ],
      [ 55, 66, 77, 88 ], 
      [ 10, 20, 31, 42 ],
       [ 5, 6, 77, 80 ]]
-printDiagonalSums(a, 4)
+printDiagonalSums(s, 4)
 # Output :- 
 # Principal Diagonal: 188
 # Secondary Diagonal: 146
