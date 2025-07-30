@@ -19,3 +19,5 @@ if __name__ == "__main__":
         print("Loop detected")
     else:
         print("Loop not found")
+
+#Output:- Loop detected
