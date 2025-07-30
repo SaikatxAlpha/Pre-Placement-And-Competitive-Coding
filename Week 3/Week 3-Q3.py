@@ -34,3 +34,9 @@ llist.printList()
 llist.deleteNode(1011)
 print("Linked List after 1011:")
 llist.printList()
+
+
+# Original Linkedlist:
+# 254 30 1011 70 
+# Linked List after 1011:   
+# 254 30 70 
