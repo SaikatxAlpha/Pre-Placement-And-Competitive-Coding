@@ -21,3 +21,9 @@ if __name__ == "__main__":
         print("Founded")
     else:
         print("Not found")
+
+#If input = 101
+#Output = Not found
+
+#If input = 990
+#Output = Founded
