@@ -16,14 +16,17 @@ def print_list(head):
         curr = curr.next
     print()  
 if __name__ == "__main__":
-    head = Node(2)
-    head.next = Node(3)
+    head = Node(2.2)
+    head.next = Node(3.56)
     head.next.prev = head
-    head.next.next = Node(4)
+    head.next.next = Node(4.22)
     head.next.next.prev = head.next
     print("Original Linked List:", end='')
     print_list(head)
     print("After inserting Node at the front:", end='')
-    data = 1
+    data = 1.0215
     head = insert_at_front(head, data)
     print_list(head)
+
+#Original Linked List: 2.2 3.56 4.22
+#After inserting Node at the front: 1.0215 2.2 3.56 4.22
